@@ -1,4 +1,4 @@
-# pz-mod-protien-shake
+# pz-mod-protein-shake
 
 The Protein Shake Mod for Project Zomboid introduces a new consumable item—protein shakes—designed to help players maintain their strength and endurance in the zombie apocalypse. This mod adds various flavors of protein shakes, each providing a balance of calories, hydration, and essential nutrients. Players can craft these shakes using ingredients like protein powder, milk, and fruits, making them a valuable resource for survivalists looking to sustain muscle mass and avoid malnutrition. Perfect for fitness-focused survivors, this mod enhances gameplay by offering a realistic nutrition boost to keep characters strong while battling the undead.
 
