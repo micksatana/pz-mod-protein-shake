@@ -1,0 +1,8 @@
+modversion=0.0.1
+name=Protein Shake
+poster=media/poster.png
+icon=media/poster.png
+id=ProteinShake
+author=micksatana
+description=Introduces a new consumable item—protein shakes—designed to help players maintain their strength and endurance in the zombie apocalypse
+url=https://github.com/micksatana/pz-mod-protein-shake
