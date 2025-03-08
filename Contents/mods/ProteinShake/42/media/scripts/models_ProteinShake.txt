@@ -1,7 +1,12 @@
 module ProteinShake {
-    model ProteinPowderBottle {
+    model ProteinPowderGSWhey {
         mesh = WorldItems/ProteinPowderBottle,
-        texture = WorldItems/ProteinPowderBottleGSWhey,
+        texture = WorldItems/ProteinPowderGSWhey,
+        scale = 1.0,
+    }
+    model ProteinPowderSMass {
+        mesh = WorldItems/ProteinPowderBottle,
+        texture = WorldItems/ProteinPowderSMass,
         scale = 1.0,
     }
     model ProteinShaker {

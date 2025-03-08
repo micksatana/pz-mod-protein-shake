@@ -1,26 +1,47 @@
 module ProteinShake {
-    item ProteinPowder {
+    item ProteinPowderGSWhey {
         DisplayCategory = Food,
-        DisplayName = ProteinPowder,
-        Icon = ProteinPowder,
+        DisplayName = ProteinPowderGSWhey,
+        Icon = ProteinPowderGSWhey,
         Type = Drainable,
         FoodType = NoExplicit,
         Packaged = TRUE,
-        WorldStaticModel = ProteinShake.ProteinPowderBottle_Ground,
+        WorldStaticModel = ProteinShake.ProteinPowderGSWhey,
         KeepOnDeplete = FALSE,
-        Weight = 0.93,
-        ThirstChange = 31,
-        HungerChange = -31,
-        Carbohydrates = 93,
-        Proteins = 744,
-        Calories = 3720,
-        Lipids = 31,
-        EatTime = 930,
+        Weight = 2.2496,
+        ThirstChange = 100,
+        HungerChange = -100,
+        Carbohydrates = 222,
+        Proteins = 1776,
+        Calories = 8880,
+        Lipids = 111,
+        EatTime = 2250,
         EatType = Pot,
-        UseDelta = 0.03225806451,
+        UseDelta = 0.01351351351, /** 74 scoops **/
+    }
+
+    item ProteinPowderSMass {
+        DisplayCategory = Food,
+        DisplayName = ProteinPowderSMass,
+        Icon = ProteinPowderSMass,
+        Type = Drainable,
+        FoodType = NoExplicit,
+        Packaged = TRUE,
+        WorldStaticModel = ProteinShake.ProteinPowderSMass,
+        KeepOnDeplete = FALSE,
+        Weight = 2.688,
+        ThirstChange = 100,
+        HungerChange = -100,
+        Carbohydrates = 2016,
+        Proteins = 400,
+        Calories = 10000,
+        Lipids = 36,
+        EatTime = 2250,
+        EatType = Pot,
+        UseDelta = 0.0625, /** 16 scoops **/
     }
     
-    item ProteinShaker {
+    item ProteinShakerGSWhey {
         DisplayCategory = WaterContainer,
         Type = Normal,
         Weight = 0.01,
@@ -35,7 +56,7 @@ module ProteinShake {
         WorldStaticModel = ProteinShaker,
         CustomContextMenu = Drink,
         CustomEatSound = DrinkingFromBottlePlastic,
-        EatTime = 93,
+        EatTime = 90,
         EatType = Bottle,
         Tags = CookableMicrowave,
         
@@ -45,7 +66,38 @@ module ProteinShake {
             capacity      = 1,
             Fluids
             {
-                fluid = ProteinShake:1,
+                fluid = ProteinShakeGSWhey:1,
+                fluid = Water:0,
+            }
+        }
+    }
+    
+    item ProteinShakerSMass {
+        DisplayCategory = WaterContainer,
+        Type = Normal,
+        Weight = 0.01,
+        DisplayName = ProteinShaker,
+        Icon = ProteinShaker,
+        CookingSound = BoilingFood,
+        FillFromDispenserSound = GetWaterFromDispenserPlasticMedium,
+        FillFromLakeSound = GetWaterFromLakeBottle,
+        FillFromTapSound = GetWaterFromTapPlasticMedium,
+        Tooltip = Tooltip_item_OnlyPurifyMicrowave,
+        StaticModel = ProteinShaker,
+        WorldStaticModel = ProteinShaker,
+        CustomContextMenu = Drink,
+        CustomEatSound = DrinkingFromBottlePlastic,
+        EatTime = 90,
+        EatType = Bottle,
+        Tags = CookableMicrowave,
+        
+        component FluidContainer
+        {
+            ContainerName = ProteinShaker,
+            capacity      = 1,
+            Fluids
+            {
+                fluid = ProteinShakeSMass:1,
                 fluid = Water:0,
             }
         }

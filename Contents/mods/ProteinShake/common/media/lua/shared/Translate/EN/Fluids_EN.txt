@@ -1,4 +1,5 @@
 Fluids_EN = {
-  Fluid_Name_ProteinShake = "Protein Shake",
-  Fluid_Container_ProteinShaker = "Protein Shaker",
+    Fluid_Name_ProteinShakeGSWhey = "Gold Standard Whey",
+    Fluid_Name_ProteinShakeSMass = "Serious Mass Gainer",
+    Fluid_Container_ProteinShaker = "Protein Shaker",
 }

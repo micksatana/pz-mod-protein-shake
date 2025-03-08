@@ -1,7 +1,7 @@
 module ProteinShake {
-    fluid ProteinShake {
+    fluid ProteinShakeGSWhey {
         ColorReference = Gold,
-        DisplayName = Fluid_Name_ProteinShake,
+        DisplayName = Fluid_Name_ProteinShakeGSWhey,
         
         Categories {
             Beverage,
@@ -13,9 +13,40 @@ module ProteinShake {
             thirstChange            = -50,
             unhappyChange           = 0,
             calories                = 120,
-            carbohydrates           = 4,
-            lipids                  = 0.5,
+            carbohydrates           = 3,
+            lipids                  = 1.5,
             proteins                = 24,
+            alcohol                 = 0,
+            fluReduction            = 0,
+            painReduction           = 75,
+            enduranceChange         = 0.5,
+            foodSicknessReduction   = 0,
+        }
+        
+        BlendWhiteList {
+            whitelist = true,
+            categories {
+                Beverage,
+            }
+        }
+    }
+    fluid ProteinShakeSMass {
+        ColorReference = Gold,
+        DisplayName = Fluid_Name_ProteinShakeSMass,
+        
+        Categories {
+            Beverage,
+        }
+        
+        Properties {
+            fatigueChange           = 0,
+            hungerChange            = -20,
+            thirstChange            = -50,
+            unhappyChange           = 0,
+            calories                = 625,
+            carbohydrates           = 126,
+            lipids                  = 2.25,
+            proteins                = 25,
             alcohol                 = 0,
             fluReduction            = 0,
             painReduction           = 75,

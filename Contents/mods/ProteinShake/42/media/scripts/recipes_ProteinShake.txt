@@ -6,12 +6,16 @@ module ProteinShake {
         category = Cooking,
         
         inputs {
-            item 1 [ProteinShake.ProteinPowder] mode:use,
-            item 1 [ProteinShake.ProteinShaker] mode:destroy flags[ItemIsFluid;NotEmpty],
+            item 1 [ProteinShake.ProteinPowderGSWhey;ProteinShake.ProteinPowderSMass] mode:use mappers[wheyMapper],
+            item 1 [ProteinShake.ProteinShakerGSWhey;ProteinShake.ProteinShakerSMass] mode:destroy flags[ItemIsFluid;NotEmpty],
             -fluid 0.3 [Water],
         }
         outputs {
-            item 1 ProteinShake.ProteinShaker,
+            item 1 mapper:wheyMapper,
+        }
+        itemMapper wheyMapper {
+            ProteinShake.ProteinShakerGSWhey = ProteinShake.ProteinPowderGSWhey,
+            ProteinShake.ProteinShakerSMass = ProteinShake.ProteinPowderSMass,
         }
     }
 }
