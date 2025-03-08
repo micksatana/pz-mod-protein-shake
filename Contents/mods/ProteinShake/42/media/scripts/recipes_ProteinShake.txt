@@ -1,17 +1,17 @@
 module ProteinShake {
     craftRecipe MakeProteinShake {
-        timedAction = Making,
-        time = 60,
+        timedAction = MixingBowl,
+        time = 30,
         Tags = InHandCraft,
         category = Cooking,
         
         inputs {
             item 1 [ProteinShake.ProteinPowder] mode:use,
-            item 1 [Base.WaterBottle;ProteinShake.ProteinShakeBottle] mode:destroy flags[ItemIsFluid;NotEmpty],
+            item 1 [ProteinShake.ProteinShaker] mode:destroy flags[ItemIsFluid;NotEmpty],
             -fluid 0.3 [Water],
         }
         outputs {
-            item 1 ProteinShake.ProteinShakeBottle,
+            item 1 ProteinShake.ProteinShaker,
         }
     }
 }

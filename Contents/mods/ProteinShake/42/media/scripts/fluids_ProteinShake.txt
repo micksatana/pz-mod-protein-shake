@@ -18,8 +18,8 @@ module ProteinShake {
             proteins                = 24,
             alcohol                 = 0,
             fluReduction            = 0,
-            painReduction           = 0,
-            enduranceChange         = 0,
+            painReduction           = 75,
+            enduranceChange         = 0.5,
             foodSicknessReduction   = 0,
         }
         

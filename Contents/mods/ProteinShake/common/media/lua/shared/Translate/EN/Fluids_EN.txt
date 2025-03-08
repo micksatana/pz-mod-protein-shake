@@ -1,3 +1,4 @@
 Fluids_EN = {
   Fluid_Name_ProteinShake = "Protein Shake",
+  Fluid_Container_ProteinShaker = "Protein Shaker",
 }

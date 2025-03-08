@@ -1,4 +1,4 @@
 Items_EN = {
     DisplayName_ProteinPowder = "Protein Powder",
-    DisplayName_ProteinShakeBottle = "Protein Shake Bottle",
+    DisplayName_ProteinShaker = "Protein Shaker",
 }

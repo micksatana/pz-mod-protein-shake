@@ -4,4 +4,9 @@ module ProteinShake {
         texture = WorldItems/ProteinPowderBottleGSWhey,
         scale = 1.0,
     }
+    model ProteinShaker {
+        mesh = WorldItems/ProteinShaker,
+        texture = WorldItems/ProteinShakerBlack,
+        scale = 0.6,
+    }
 }

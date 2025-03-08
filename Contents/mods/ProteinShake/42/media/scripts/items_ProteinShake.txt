@@ -5,8 +5,10 @@ module ProteinShake {
         Icon = ProteinPowder,
         Type = Drainable,
         FoodType = NoExplicit,
-        WorldStaticModel = ProteinShake.ProteinPowderBottle,
-        Weight = 0.930,
+        Packaged = TRUE,
+        WorldStaticModel = ProteinShake.ProteinPowderBottle_Ground,
+        KeepOnDeplete = FALSE,
+        Weight = 0.93,
         ThirstChange = 31,
         HungerChange = -31,
         Carbohydrates = 93,
@@ -14,32 +16,32 @@ module ProteinShake {
         Calories = 3720,
         Lipids = 31,
         EatTime = 930,
-        UseDelta = 0.0322,
+        EatType = Pot,
+        UseDelta = 0.03225806451,
     }
     
-    item ProteinShakeBottle {
+    item ProteinShaker {
         DisplayCategory = WaterContainer,
         Type = Normal,
         Weight = 0.01,
-        DisplayName = ProteinShakeBottle,
-        Icon = ProteinShakeBottle,
-        IconColorMask = ProteinShakeBottle_Mask2,
-        IconFluidMask = ProteinShakeBottle_Mask,
+        DisplayName = ProteinShaker,
+        Icon = ProteinShaker,
         CookingSound = BoilingFood,
         FillFromDispenserSound = GetWaterFromDispenserPlasticMedium,
         FillFromLakeSound = GetWaterFromLakeBottle,
         FillFromTapSound = GetWaterFromTapPlasticMedium,
         Tooltip = Tooltip_item_OnlyPurifyMicrowave,
-        StaticModel = WaterBottle,
-        WorldStaticModel = WaterBottleFull,
+        StaticModel = ProteinShaker,
+        WorldStaticModel = ProteinShaker,
         CustomContextMenu = Drink,
         CustomEatSound = DrinkingFromBottlePlastic,
         EatTime = 93,
+        EatType = Bottle,
         Tags = CookableMicrowave,
         
         component FluidContainer
         {
-            ContainerName = BottlePlastic,
+            ContainerName = ProteinShaker,
             capacity      = 1,
             Fluids
             {

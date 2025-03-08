@@ -6,23 +6,28 @@ The Protein Shake Mod for Project Zomboid introduces a new consumable item—pro
 
 New Consumable: Protein Shakes
 
-- Adds different flavors of protein shakes, each with unique nutritional benefits.
+- Several types of protein shakes, each with unique nutritional benefits.
+
+  - Gold Standard Whey
+  - Isolate Whey [WIP]
+  - Mass Gainer [WIP]
+
 - Helps maintain strength and endurance, reducing the risk of losing muscle mass.
 
 ## Crafting System
 
 Players can craft protein shakes using ingredients like:
 
-- Protein Powder (new item)
-- Milk
-- Fruits
-- Water
+- Protein Powder (1 scoop). There are total of 31 scoops.
+- Protein Shaker
+- Water >= 300ml
 
 ## Nutrition & Survival Benefits
 
-- High in calories and protein, preventing fatigue and weight loss.
+- Protein boost helps improving XP gained from excercises.
+- Improve endurance and reduce pain (drink it when got pain after excercise).
+- Medium in calories and high protein, maintain current weight, preventing fatigue.
 - Provides hydration, making it a great alternative to water.
-- Balanced macros to support physical activity like sprinting and combat.
 
 ## Integration with Existing Mechanics
 
