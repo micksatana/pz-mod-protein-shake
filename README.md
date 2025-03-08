@@ -8,9 +8,9 @@ New Consumable: Protein Shakes
 
 - Several types of protein shakes, each with unique nutritional benefits.
 
-  - Gold Standard Whey
-  - Isolate Whey [WIP]
-  - Mass Gainer [WIP]
+  - 100% Whey Protein
+  - 100% Isolate Protein [WIP]
+  - Serious Mass Gainer [WIP]
 
 - Helps maintain strength and endurance, reducing the risk of losing muscle mass.
 

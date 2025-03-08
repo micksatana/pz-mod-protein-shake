@@ -9,6 +9,11 @@ module ProteinShake {
         texture = WorldItems/ProteinPowderSMass,
         scale = 1.0,
     }
+    model ProteinPowderGSIsolate {
+        mesh = WorldItems/ProteinPowderBottle,
+        texture = WorldItems/ProteinPowderGSIsolate,
+        scale = 1.0,
+    }
     model ProteinShaker {
         mesh = WorldItems/ProteinShaker,
         texture = WorldItems/ProteinShakerBlack,

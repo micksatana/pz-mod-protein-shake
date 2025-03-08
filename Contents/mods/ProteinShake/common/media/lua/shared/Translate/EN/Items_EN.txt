@@ -1,5 +1,6 @@
 Items_EN = {
-    DisplayName_ProteinPowderGSWhey = "Gold Standard Whey",
+    DisplayName_ProteinPowderGSWhey = "Gold Standard 100% Whey",
+    DisplayName_ProteinPowderGSIsolate = "Gold Standard 100% Isolate",
     DisplayName_ProteinPowderSMass = "Serious Mass Gainer",
     DisplayName_ProteinShaker = "Protein Shaker",
 }

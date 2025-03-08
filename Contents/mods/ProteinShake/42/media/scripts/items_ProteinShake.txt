@@ -1,4 +1,25 @@
 module ProteinShake {
+    item ProteinPowderGSIsolate {
+        DisplayCategory = Food,
+        DisplayName = ProteinPowderGSIsolate,
+        Icon = ProteinPowderGSIsolate,
+        Type = Drainable,
+        FoodType = NoExplicit,
+        Packaged = TRUE,
+        WorldStaticModel = ProteinShake.ProteinPowderGSIsolate,
+        KeepOnDeplete = FALSE,
+        Weight = 2.356,
+        ThirstChange = 100,
+        HungerChange = -100,
+        Carbohydrates = 76,
+        Proteins = 1900,
+        Calories = 8360,
+        Lipids = 38,
+        EatTime = 2356,
+        EatType = Pot,
+        UseDelta = 0.0131578947, /** 76 scoops **/
+    }
+    
     item ProteinPowderGSWhey {
         DisplayCategory = Food,
         DisplayName = ProteinPowderGSWhey,
@@ -17,9 +38,9 @@ module ProteinShake {
         Lipids = 111,
         EatTime = 2250,
         EatType = Pot,
-        UseDelta = 0.01351351351, /** 74 scoops **/
+        UseDelta = 0.0135135135, /** 74 scoops **/
     }
-
+    
     item ProteinPowderSMass {
         DisplayCategory = Food,
         DisplayName = ProteinPowderSMass,
@@ -39,6 +60,37 @@ module ProteinShake {
         EatTime = 2250,
         EatType = Pot,
         UseDelta = 0.0625, /** 16 scoops **/
+    }
+    
+    item ProteinShakerGSIsolate {
+        DisplayCategory = WaterContainer,
+        Type = Normal,
+        Weight = 0.01,
+        DisplayName = ProteinShaker,
+        Icon = ProteinShaker,
+        CookingSound = BoilingFood,
+        FillFromDispenserSound = GetWaterFromDispenserPlasticMedium,
+        FillFromLakeSound = GetWaterFromLakeBottle,
+        FillFromTapSound = GetWaterFromTapPlasticMedium,
+        Tooltip = Tooltip_item_OnlyPurifyMicrowave,
+        StaticModel = ProteinShaker,
+        WorldStaticModel = ProteinShaker,
+        CustomContextMenu = Drink,
+        CustomEatSound = DrinkingFromBottlePlastic,
+        EatTime = 90,
+        EatType = Bottle,
+        Tags = CookableMicrowave,
+        
+        component FluidContainer
+        {
+            ContainerName = ProteinShaker,
+            capacity      = 1,
+            Fluids
+            {
+                fluid = ProteinShakeGSIsolate:1,
+                fluid = Water:0,
+            }
+        }
     }
     
     item ProteinShakerGSWhey {

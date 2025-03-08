@@ -1,6 +1,38 @@
 module ProteinShake {
-    fluid ProteinShakeGSWhey {
+    fluid ProteinShakeGSIsolate {
         ColorReference = Gold,
+        DisplayName = Fluid_Name_ProteinShakeGSIsolate,
+        
+        Categories {
+            Beverage,
+        }
+        
+        Properties {
+            fatigueChange           = 0,
+            hungerChange            = -20,
+            thirstChange            = -50,
+            unhappyChange           = 0,
+            calories                = 110,
+            carbohydrates           = 1,
+            lipids                  = 0.5,
+            proteins                = 25,
+            alcohol                 = 0,
+            fluReduction            = 0,
+            painReduction           = 100,
+            enduranceChange         = 0.5,
+            foodSicknessReduction   = 0,
+        }
+        
+        BlendWhiteList {
+            whitelist = true,
+            categories {
+                Beverage,
+            }
+        }
+    }
+
+    fluid ProteinShakeGSWhey {
+        ColorReference = SandyBrown,
         DisplayName = Fluid_Name_ProteinShakeGSWhey,
         
         Categories {
@@ -18,7 +50,7 @@ module ProteinShake {
             proteins                = 24,
             alcohol                 = 0,
             fluReduction            = 0,
-            painReduction           = 75,
+            painReduction           = 98,
             enduranceChange         = 0.5,
             foodSicknessReduction   = 0,
         }
@@ -30,8 +62,9 @@ module ProteinShake {
             }
         }
     }
+    
     fluid ProteinShakeSMass {
-        ColorReference = Gold,
+        ColorReference = White,
         DisplayName = Fluid_Name_ProteinShakeSMass,
         
         Categories {
@@ -49,8 +82,8 @@ module ProteinShake {
             proteins                = 25,
             alcohol                 = 0,
             fluReduction            = 0,
-            painReduction           = 75,
-            enduranceChange         = 0.5,
+            painReduction           = 100,
+            enduranceChange         = 0.75,
             foodSicknessReduction   = 0,
         }
         

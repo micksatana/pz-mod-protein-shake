@@ -1,5 +1,6 @@
 Fluids_EN = {
-    Fluid_Name_ProteinShakeGSWhey = "Gold Standard Whey",
-    Fluid_Name_ProteinShakeSMass = "Serious Mass Gainer",
+    Fluid_Name_ProteinShakeGSWhey = "Whey Protein",
+    Fluid_Name_ProteinShakeGSIsolate = "Whey Protein Isolate",
+    Fluid_Name_ProteinShakeSMass = "Mass Gainer",
     Fluid_Container_ProteinShaker = "Protein Shaker",
 }
