@@ -1,0 +1,33 @@
+module ProteinShake {
+    fluid ProteinShake {
+        ColorReference = Gold,
+        DisplayName = Fluid_Name_ProteinShake,
+        
+        Categories {
+            Beverage,
+        }
+        
+        Properties {
+            fatigueChange           = 0,
+            hungerChange            = -20,
+            thirstChange            = -50,
+            unhappyChange           = 0,
+            calories                = 120,
+            carbohydrates           = 4,
+            lipids                  = 0.5,
+            proteins                = 24,
+            alcohol                 = 0,
+            fluReduction            = 0,
+            painReduction           = 0,
+            enduranceChange         = 0,
+            foodSicknessReduction   = 0,
+        }
+        
+        BlendWhiteList {
+            whitelist = true,
+            categories {
+                Beverage,
+            }
+        }
+    }
+}
