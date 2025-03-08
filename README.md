@@ -8,9 +8,9 @@ New Consumable: Protein Shakes
 
 - Several types of protein shakes, each with unique nutritional benefits.
 
-  - 100% Whey Protein
-  - 100% Isolate Protein [WIP]
-  - Serious Mass Gainer [WIP]
+  - 100% Whey Protein Isolate; focus on building more muscle
+  - 100% Whey Protein; to build muscle and maintain weight
+  - Serious Mass Gainer; to gain more weight
 
 - Helps maintain strength and endurance, reducing the risk of losing muscle mass.
 
@@ -32,3 +32,7 @@ Players can craft protein shakes using ingredients like:
 ## Integration with Existing Mechanics
 
 - Can be found in gyms, supermarkets, pharmacies, and kitchens.
+
+## Note
+
+See Protein Boost Benefits at https://pzwiki.net/wiki/Exercise
