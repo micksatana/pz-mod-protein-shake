@@ -29,9 +29,9 @@ Players can craft protein shakes using ingredients like:
 - Medium in calories and high protein, maintain current weight, preventing fatigue.
 - Provides hydration, making it a great alternative to water.
 
-## Integration with Existing Mechanics
+## Spawning Areas
 
-- Can be found in gyms, supermarkets, pharmacies, and kitchens.
+- Can be found in crats, lockers, gyms, supermarkets, and kitchens.
 
 ## Note
 
