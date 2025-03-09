@@ -1,7 +1,8 @@
-modversion=0.0.1
+modversion=1.0.0
 name=Protein Shake
-poster=media/poster.png
-icon=media/poster.png
+poster=media/poster-1.png
+poster=media/poster-2.png
+icon=media/icon-64.png
 id=ProteinShake
 author=micksatana
 description=Introduces a new consumable item—protein shakes—designed to help players maintain their strength and endurance in the zombie apocalypse

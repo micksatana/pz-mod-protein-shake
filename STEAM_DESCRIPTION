@@ -1,0 +1,87 @@
+[h1]ProteinShake[/h1]
+
+The Protein Shake Mod for Project Zomboid introduces a new consumable item—protein shakes—designed to help players maintain their strength and endurance in the zombie apocalypse. This mod adds various flavors of protein shakes, each providing a balance of calories, hydration, and essential nutrients. Players can craft these shakes using ingredients like protein powder, milk, and fruits, making them a valuable resource for survivalists looking to sustain muscle mass and avoid malnutrition. Perfect for fitness-focused survivors, this mod enhances gameplay by offering a realistic nutrition boost to keep characters strong while battling the undead.
+
+[h2]Features[/h2]
+
+New Consumable: Protein Shakes
+
+[list]
+  [*] Several types of protein shakes, each with unique nutritional benefits.
+    [list]
+      [*] 100% Whey Protein Isolate; focus on building more muscle
+      [*] 100% Whey Protein; to build muscle and maintain weight
+      [*] Serious Mass Gainer; to gain more weight
+    [/list]
+  [*] Helps maintain strength and endurance, reducing the risk of losing muscle mass.
+[/list]
+
+[h2]Crafting System[/h2]
+
+Players can craft protein shakes using ingredients like:
+
+[list]
+  [*] Protein Powder (1 scoop)
+  [*] Protein Shaker
+  [*] Water >= 300ml
+[/list]
+
+[table]
+  [tr]
+    [th]Icon[/th]
+    [th]Name[/th]
+    [th]Proteins[/th]
+    [th]Carbs[/th]
+    [th]Lipids[/th]
+    [th]Calories[/th]
+  [/tr]
+  [tr]
+    [td][img]https://imgur.com/GGaIJ4e[/img][/td]
+    [td]100% Whey Protein Isolate[/td]
+    [td]25[/td]
+    [td]1[/td]
+    [td]0.5[/td]
+    [td]110[/td]
+  [/tr]
+  [tr]
+    [td][img]https://imgur.com/8WY13ce[/img][/td]
+    [td]100% Whey Protein[/td]
+    [td]24[/td]
+    [td]2[/td]
+    [td]1.5[/td]
+    [td]120[/td]
+  [/tr]
+  [tr]
+    [td][img]https://imgur.com/qI0jiha[/img][/td]
+    [td]Serious Mass Gainer[/td]
+    [td]25[/td]
+    [td]126[/td]
+    [td]2.25[/td]
+    [td]625[/td]
+  [/tr]
+  [tr]
+    [td][img]https://imgur.com/ShsHlPF[/img][/td]
+    [td]Protein Shaker[/td]
+    [td][/td]
+    [td][/td]
+    [td][/td]
+    [td][/td]
+  [/tr]
+[/table]
+
+[h2]Nutrition & Survival Benefits[/h2]
+
+[list]
+  [*] Protein boost helps improving XP gained from excercises
+  [*] Improve endurance and reduce pain (drink it when got pain after excercise)
+  [*] Medium in calories and high protein, maintain current weight, preventing fatigue
+  [*] Provides hydration, making it a great alternative to water
+[/list]
+
+[h2]Spawning Areas[/h2]
+
+Protein shakers and powders be found in crats, lockers, gyms, supermarkets, and kitchens.
+
+[h2]Note[/h2]
+
+See Protein Boost Benefits at [url=https://pzwiki.net/wiki/Exercise]PZ Wiki - Exercise[/url] document

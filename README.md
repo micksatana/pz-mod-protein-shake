@@ -22,6 +22,13 @@ Players can craft protein shakes using ingredients like:
 - Protein Shaker
 - Water >= 300ml
 
+| Icon                                                                                         | Name                     | Proteins | Carbs | Lipids | Calories |
+| -------------------------------------------------------------------------------------------- | ------------------------- | -------- | ----- | ------ | -------- |
+| ![image](./Contents/mods/ProteinShake/common/media/textures/Item_ProteinPowderGSIsolate.png) | 100% Whey Protein Isolate | 25       | 1     | 0.5    | 110      |
+| ![image](./Contents/mods/ProteinShake/common/media/textures/Item_ProteinPowderGSWhey.png)    | 100% Whey Protein         | 24       | 2     | 1.5    | 120      |
+| ![image](./Contents/mods/ProteinShake/common/media/textures/Item_ProteinPowderSMass.png)     | Serious Mass Gainer       | 25       | 126   | 2.25   | 625      |
+| ![image](./Contents/mods/ProteinShake/common/media/textures/Item_ProteinShaker.png)          | Protein Shaker            |          |       |        |          |
+
 ## Nutrition & Survival Benefits
 
 - Protein boost helps improving XP gained from excercises.
@@ -31,8 +38,8 @@ Players can craft protein shakes using ingredients like:
 
 ## Spawning Areas
 
-- Can be found in crats, lockers, gyms, supermarkets, and kitchens.
+Protein shakers and powders be found in crats, lockers, gyms, supermarkets, and kitchens.
 
 ## Note
 
-See Protein Boost Benefits at https://pzwiki.net/wiki/Exercise
+See Protein Boost Benefits at [PZ Wiki - Exercise](https://pzwiki.net/wiki/Exercise) document
