@@ -20,7 +20,6 @@ module ProteinShake {
             fluReduction            = 0,
             painReduction           = 100,
             enduranceChange         = 0.5,
-            foodSicknessReduction   = 0,
         }
         
         BlendWhiteList {
@@ -52,7 +51,6 @@ module ProteinShake {
             fluReduction            = 0,
             painReduction           = 98,
             enduranceChange         = 0.5,
-            foodSicknessReduction   = 0,
         }
         
         BlendWhiteList {
@@ -84,7 +82,6 @@ module ProteinShake {
             fluReduction            = 0,
             painReduction           = 100,
             enduranceChange         = 0.75,
-            foodSicknessReduction   = 0,
         }
         
         BlendWhiteList {
