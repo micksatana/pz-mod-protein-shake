@@ -3,7 +3,7 @@ module ProteinShake {
         DisplayCategory = Food,
         DisplayName = ProteinPowderGSIsolate,
         Icon = ProteinPowderGSIsolate,
-        Type = Drainable,
+        ItemType = base:drainable,
         FoodType = NoExplicit,
         Packaged = TRUE,
         WorldStaticModel = ProteinShake.ProteinPowderGSIsolate,
@@ -24,7 +24,7 @@ module ProteinShake {
         DisplayCategory = Food,
         DisplayName = ProteinPowderGSWhey,
         Icon = ProteinPowderGSWhey,
-        Type = Drainable,
+        ItemType = base:drainable,
         FoodType = NoExplicit,
         Packaged = TRUE,
         WorldStaticModel = ProteinShake.ProteinPowderGSWhey,
@@ -45,7 +45,7 @@ module ProteinShake {
         DisplayCategory = Food,
         DisplayName = ProteinPowderSMass,
         Icon = ProteinPowderSMass,
-        Type = Drainable,
+        ItemType = base:drainable,
         FoodType = NoExplicit,
         Packaged = TRUE,
         WorldStaticModel = ProteinShake.ProteinPowderSMass,
@@ -64,7 +64,7 @@ module ProteinShake {
     
     item ProteinShakerGSIsolate {
         DisplayCategory = WaterContainer,
-        Type = Normal,
+        ItemType = base:normal,
         Weight = 0.01,
         DisplayName = ProteinShaker,
         Icon = ProteinShaker,
@@ -95,7 +95,7 @@ module ProteinShake {
     
     item ProteinShakerGSWhey {
         DisplayCategory = WaterContainer,
-        Type = Normal,
+        ItemType = base:normal,
         Weight = 0.01,
         DisplayName = ProteinShaker,
         Icon = ProteinShaker,
@@ -126,7 +126,7 @@ module ProteinShake {
     
     item ProteinShakerSMass {
         DisplayCategory = WaterContainer,
-        Type = Normal,
+        ItemType = base:normal,
         Weight = 0.01,
         DisplayName = ProteinShaker,
         Icon = ProteinShaker,
