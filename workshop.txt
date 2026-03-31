@@ -88,6 +88,5 @@ description=
 description=[h2]Note[/h2]
 description=
 description=See Protein Boost Benefits at [url=https://pzwiki.net/wiki/Exercise]PZ Wiki - Exercise[/url] document
-description=
 tags=Build 42;Food;Items;Realistic;QoL
 visibility=public
